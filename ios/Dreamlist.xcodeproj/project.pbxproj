@@ -8,12 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* DreamlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DreamlistTests.m */; };
+		06A96BFBB0FB4D10B2BC4D1B /* segoeuiz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19BBC303728A44FAB0EC7741 /* segoeuiz.ttf */; };
+		08368B25DED74D66A6201EBD /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2048B9FCA6C64FE9A03068D0 /* Inter-Light.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-Dreamlist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Dreamlist.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		17D494C706CE4758B25E6D97 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3658D1BEEDE439DA936A221 /* Inter-Black.ttf */; };
+		224E597B03354EE9A99E5063 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F6506B115E64138A403D033 /* Inter-SemiBold.ttf */; };
+		297907A3556C47B1B6715DEA /* segoeuil.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C2C0B7E4E4B01855ACC56 /* segoeuil.ttf */; };
+		321584AE21BA4D34A8A06915 /* AeonikTRIAL-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9583234DA7F4F159C842BED /* AeonikTRIAL-Regular.otf */; };
+		3783C9E9EDEB440194242D56 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCC278D1C7574813A2953FE5 /* Inter-Bold.ttf */; };
+		3FDAB9D743DB448EBAE94C75 /* Satisfy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F1413DE44444989A1320002 /* Satisfy-Regular.ttf */; };
+		4021D9EB1EED4CDBA93CA477 /* segoeuii.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3E4AB1FE5194BC19744F173 /* segoeuii.ttf */; };
+		4BBB0B20A1524B3D900B3682 /* RAGE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = C64227E73F8245B69BD3EC97 /* RAGE.TTF */; };
+		561B4E5B20134F5A8082CC8F /* seguisli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2610D9F5B154D41BB011992 /* seguisli.ttf */; };
+		665496C1E4A84FA99F8978CC /* AeonikTRIAL-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6FF02EB66445E38A407353 /* AeonikTRIAL-LightItalic.otf */; };
+		6C1FC61553F04072A3DB0D3B /* segoeui.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0068AB9AD67948579CFFC333 /* segoeui.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Dreamlist-DreamlistTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Dreamlist-DreamlistTests.a */; };
+		782D3120847A4AB18F323B14 /* AeonikTRIAL-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59988856C6C4714BAF823C7 /* AeonikTRIAL-Bold.otf */; };
+		791CC20F3F2E49DFBDED6D48 /* AeonikTRIAL-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA196F9C65BF42EFBC7665FB /* AeonikTRIAL-RegularItalic.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		850E3B9787E54FE5B7BABF03 /* seguili.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 320E31DCA88641B397B4E9BF /* seguili.ttf */; };
+		8694EF73F0044D3E8C737079 /* seguibl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B13773696AB4B7B95B7EF24 /* seguibl.ttf */; };
+		8FC479D47EBB4FA29D2C487A /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9970B6803C8B426F80D1C54C /* Inter-Medium.ttf */; };
+		9C92CBFA66A04EDB959ED371 /* seguibli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67C6CB44FEA4E5CA92D1366 /* seguibli.ttf */; };
+		9DDCCF0E45464AA989EB7C37 /* CoType-EULA-Trial.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A3AFC67C52494F57A0C353BE /* CoType-EULA-Trial.pdf */; };
+		9DEC205DCD08433CA330857D /* segoeuisl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FB3A1702CF14EC699236865 /* segoeuisl.ttf */; };
+		A64EFE8C66FC498EB802A2A1 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65DC69027BC14CF1B45644C7 /* Inter-ExtraBold.ttf */; };
+		A95FFD9DC32141E481A5F265 /* seguisb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B81B285EF684D079666BB2E /* seguisb.ttf */; };
+		B19BE06BA8A04825ADE5383F /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5F0EE41E138443EA6FCFA12 /* Inter-Regular.ttf */; };
+		BDCCB3B3E32545CFA901628A /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 270C520D31624626941B0D1D /* Inter-Thin.ttf */; };
+		D1D58C9F77B94B298B926F6A /* seguisbi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7ACF3ADA50F47F6A3578CEA /* seguisbi.ttf */; };
+		D4F614020E88486C84E593B6 /* segoeuib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DEC618340FB4B3BBBB005B0 /* segoeuib.ttf */; };
+		D539DD176B6F8F6756B4A83F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 62CFB2808B9DD6B57A5BE032 /* PrivacyInfo.xcprivacy */; };
+		EFC623A83FDD4EF3B8EBEC9E /* AeonikTRIAL-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAB494149CC44F8B9FD7552D /* AeonikTRIAL-BoldItalic.otf */; };
+		F38FE9D8EB7B43AC8C08AE85 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B546DF53789A498A83317549 /* Inter-ExtraLight.ttf */; };
+		F9ED7995B97349CC8DF39B39 /* AeonikTRIAL-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9700E45AE14446FAAF5D3A6C /* AeonikTRIAL-Light.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,24 +58,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0068AB9AD67948579CFFC333 /* segoeui.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = segoeui.ttf; path = ../src/assets/fonts/segoeui.ttf; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* DreamlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamlistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DreamlistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamlistTests.m; sourceTree = "<group>"; };
+		0B13773696AB4B7B95B7EF24 /* seguibl.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = seguibl.ttf; path = ../src/assets/fonts/seguibl.ttf; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Dreamlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Dreamlist/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Dreamlist/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Dreamlist/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Dreamlist/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Dreamlist/main.m; sourceTree = "<group>"; };
-	    13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Dreamlist/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Dreamlist/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		19BBC303728A44FAB0EC7741 /* segoeuiz.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = segoeuiz.ttf; path = ../src/assets/fonts/segoeuiz.ttf; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Dreamlist-DreamlistTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dreamlist-DreamlistTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6506B115E64138A403D033 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		2048B9FCA6C64FE9A03068D0 /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../src/assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		270C520D31624626941B0D1D /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../src/assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		320E31DCA88641B397B4E9BF /* seguili.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = seguili.ttf; path = ../src/assets/fonts/seguili.ttf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Dreamlist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dreamlist.debug.xcconfig"; path = "Target Support Files/Pods-Dreamlist/Pods-Dreamlist.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Dreamlist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dreamlist.release.xcconfig"; path = "Target Support Files/Pods-Dreamlist/Pods-Dreamlist.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Dreamlist-DreamlistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dreamlist-DreamlistTests.debug.xcconfig"; path = "Target Support Files/Pods-Dreamlist-DreamlistTests/Pods-Dreamlist-DreamlistTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Dreamlist.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dreamlist.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CFB2808B9DD6B57A5BE032 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Dreamlist/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		65DC69027BC14CF1B45644C7 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../src/assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6B81B285EF684D079666BB2E /* seguisb.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = seguisb.ttf; path = ../src/assets/fonts/seguisb.ttf; sourceTree = "<group>"; };
+		6C6FF02EB66445E38A407353 /* AeonikTRIAL-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AeonikTRIAL-LightItalic.otf"; path = "../src/assets/fonts/AeonikTRIAL-LightItalic.otf"; sourceTree = "<group>"; };
+		6C9C2C0B7E4E4B01855ACC56 /* segoeuil.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = segoeuil.ttf; path = ../src/assets/fonts/segoeuil.ttf; sourceTree = "<group>"; };
+		6FB3A1702CF14EC699236865 /* segoeuisl.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = segoeuisl.ttf; path = ../src/assets/fonts/segoeuisl.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Dreamlist/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Dreamlist-DreamlistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dreamlist-DreamlistTests.release.xcconfig"; path = "Target Support Files/Pods-Dreamlist-DreamlistTests/Pods-Dreamlist-DreamlistTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DEC618340FB4B3BBBB005B0 /* segoeuib.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = segoeuib.ttf; path = ../src/assets/fonts/segoeuib.ttf; sourceTree = "<group>"; };
+		8F1413DE44444989A1320002 /* Satisfy-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satisfy-Regular.ttf"; path = "../src/assets/fonts/Satisfy-Regular.ttf"; sourceTree = "<group>"; };
+		9700E45AE14446FAAF5D3A6C /* AeonikTRIAL-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AeonikTRIAL-Light.otf"; path = "../src/assets/fonts/AeonikTRIAL-Light.otf"; sourceTree = "<group>"; };
+		9970B6803C8B426F80D1C54C /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		A3AFC67C52494F57A0C353BE /* CoType-EULA-Trial.pdf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CoType-EULA-Trial.pdf"; path = "../src/assets/fonts/CoType-EULA-Trial.pdf"; sourceTree = "<group>"; };
+		A3E4AB1FE5194BC19744F173 /* segoeuii.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = segoeuii.ttf; path = ../src/assets/fonts/segoeuii.ttf; sourceTree = "<group>"; };
+		A7ACF3ADA50F47F6A3578CEA /* seguisbi.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = seguisbi.ttf; path = ../src/assets/fonts/seguisbi.ttf; sourceTree = "<group>"; };
+		B2610D9F5B154D41BB011992 /* seguisli.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = seguisli.ttf; path = ../src/assets/fonts/seguisli.ttf; sourceTree = "<group>"; };
+		B546DF53789A498A83317549 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../src/assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C5F0EE41E138443EA6FCFA12 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		C64227E73F8245B69BD3EC97 /* RAGE.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RAGE.TTF; path = ../src/assets/fonts/RAGE.TTF; sourceTree = "<group>"; };
+		D67C6CB44FEA4E5CA92D1366 /* seguibli.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = seguibli.ttf; path = ../src/assets/fonts/seguibli.ttf; sourceTree = "<group>"; };
+		DCC278D1C7574813A2953FE5 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		E3658D1BEEDE439DA936A221 /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../src/assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
+		EAB494149CC44F8B9FD7552D /* AeonikTRIAL-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AeonikTRIAL-BoldItalic.otf"; path = "../src/assets/fonts/AeonikTRIAL-BoldItalic.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F59988856C6C4714BAF823C7 /* AeonikTRIAL-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AeonikTRIAL-Bold.otf"; path = "../src/assets/fonts/AeonikTRIAL-Bold.otf"; sourceTree = "<group>"; };
+		F9583234DA7F4F159C842BED /* AeonikTRIAL-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AeonikTRIAL-Regular.otf"; path = "../src/assets/fonts/AeonikTRIAL-Regular.otf"; sourceTree = "<group>"; };
+		FA196F9C65BF42EFBC7665FB /* AeonikTRIAL-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AeonikTRIAL-RegularItalic.otf"; path = "../src/assets/fonts/AeonikTRIAL-RegularItalic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +156,47 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				62CFB2808B9DD6B57A5BE032 /* PrivacyInfo.xcprivacy */,
 			);
 			name = Dreamlist;
+			sourceTree = "<group>";
+		};
+		146079E8E8D9414DACD2353E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F59988856C6C4714BAF823C7 /* AeonikTRIAL-Bold.otf */,
+				EAB494149CC44F8B9FD7552D /* AeonikTRIAL-BoldItalic.otf */,
+				9700E45AE14446FAAF5D3A6C /* AeonikTRIAL-Light.otf */,
+				6C6FF02EB66445E38A407353 /* AeonikTRIAL-LightItalic.otf */,
+				F9583234DA7F4F159C842BED /* AeonikTRIAL-Regular.otf */,
+				FA196F9C65BF42EFBC7665FB /* AeonikTRIAL-RegularItalic.otf */,
+				E3658D1BEEDE439DA936A221 /* Inter-Black.ttf */,
+				DCC278D1C7574813A2953FE5 /* Inter-Bold.ttf */,
+				65DC69027BC14CF1B45644C7 /* Inter-ExtraBold.ttf */,
+				B546DF53789A498A83317549 /* Inter-ExtraLight.ttf */,
+				2048B9FCA6C64FE9A03068D0 /* Inter-Light.ttf */,
+				9970B6803C8B426F80D1C54C /* Inter-Medium.ttf */,
+				C5F0EE41E138443EA6FCFA12 /* Inter-Regular.ttf */,
+				1F6506B115E64138A403D033 /* Inter-SemiBold.ttf */,
+				270C520D31624626941B0D1D /* Inter-Thin.ttf */,
+				8F1413DE44444989A1320002 /* Satisfy-Regular.ttf */,
+				0068AB9AD67948579CFFC333 /* segoeui.ttf */,
+				8DEC618340FB4B3BBBB005B0 /* segoeuib.ttf */,
+				A3E4AB1FE5194BC19744F173 /* segoeuii.ttf */,
+				6C9C2C0B7E4E4B01855ACC56 /* segoeuil.ttf */,
+				6FB3A1702CF14EC699236865 /* segoeuisl.ttf */,
+				19BBC303728A44FAB0EC7741 /* segoeuiz.ttf */,
+				0B13773696AB4B7B95B7EF24 /* seguibl.ttf */,
+				D67C6CB44FEA4E5CA92D1366 /* seguibli.ttf */,
+				320E31DCA88641B397B4E9BF /* seguili.ttf */,
+				6B81B285EF684D079666BB2E /* seguisb.ttf */,
+				A7ACF3ADA50F47F6A3578CEA /* seguisbi.ttf */,
+				B2610D9F5B154D41BB011992 /* seguisli.ttf */,
+				A3AFC67C52494F57A0C353BE /* CoType-EULA-Trial.pdf */,
+				C64227E73F8245B69BD3EC97 /* RAGE.TTF */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -124,6 +225,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				146079E8E8D9414DACD2353E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -245,6 +347,37 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D539DD176B6F8F6756B4A83F /* PrivacyInfo.xcprivacy in Resources */,
+				782D3120847A4AB18F323B14 /* AeonikTRIAL-Bold.otf in Resources */,
+				EFC623A83FDD4EF3B8EBEC9E /* AeonikTRIAL-BoldItalic.otf in Resources */,
+				F9ED7995B97349CC8DF39B39 /* AeonikTRIAL-Light.otf in Resources */,
+				665496C1E4A84FA99F8978CC /* AeonikTRIAL-LightItalic.otf in Resources */,
+				321584AE21BA4D34A8A06915 /* AeonikTRIAL-Regular.otf in Resources */,
+				791CC20F3F2E49DFBDED6D48 /* AeonikTRIAL-RegularItalic.otf in Resources */,
+				17D494C706CE4758B25E6D97 /* Inter-Black.ttf in Resources */,
+				3783C9E9EDEB440194242D56 /* Inter-Bold.ttf in Resources */,
+				A64EFE8C66FC498EB802A2A1 /* Inter-ExtraBold.ttf in Resources */,
+				F38FE9D8EB7B43AC8C08AE85 /* Inter-ExtraLight.ttf in Resources */,
+				08368B25DED74D66A6201EBD /* Inter-Light.ttf in Resources */,
+				8FC479D47EBB4FA29D2C487A /* Inter-Medium.ttf in Resources */,
+				B19BE06BA8A04825ADE5383F /* Inter-Regular.ttf in Resources */,
+				224E597B03354EE9A99E5063 /* Inter-SemiBold.ttf in Resources */,
+				BDCCB3B3E32545CFA901628A /* Inter-Thin.ttf in Resources */,
+				3FDAB9D743DB448EBAE94C75 /* Satisfy-Regular.ttf in Resources */,
+				6C1FC61553F04072A3DB0D3B /* segoeui.ttf in Resources */,
+				D4F614020E88486C84E593B6 /* segoeuib.ttf in Resources */,
+				4021D9EB1EED4CDBA93CA477 /* segoeuii.ttf in Resources */,
+				297907A3556C47B1B6715DEA /* segoeuil.ttf in Resources */,
+				9DEC205DCD08433CA330857D /* segoeuisl.ttf in Resources */,
+				06A96BFBB0FB4D10B2BC4D1B /* segoeuiz.ttf in Resources */,
+				8694EF73F0044D3E8C737079 /* seguibl.ttf in Resources */,
+				9C92CBFA66A04EDB959ED371 /* seguibli.ttf in Resources */,
+				850E3B9787E54FE5B7BABF03 /* seguili.ttf in Resources */,
+				A95FFD9DC32141E481A5F265 /* seguisb.ttf in Resources */,
+				D1D58C9F77B94B298B926F6A /* seguisbi.ttf in Resources */,
+				561B4E5B20134F5A8082CC8F /* seguisli.ttf in Resources */,
+				9DDCCF0E45464AA989EB7C37 /* CoType-EULA-Trial.pdf in Resources */,
+				4BBB0B20A1524B3D900B3682 /* RAGE.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +650,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -544,6 +678,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -563,6 +698,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -582,7 +719,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -590,6 +733,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -617,6 +761,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -629,6 +774,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -647,7 +794,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
