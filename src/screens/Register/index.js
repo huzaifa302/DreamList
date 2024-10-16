@@ -40,7 +40,7 @@ const Register = () => {
     NavigationService.navigate('SignIn');
   };
   const onSubmit = () => {
-    NavigationService.navigate('OTPVerification', {isRegister: true}) ;
+    NavigationService.navigate('OTPVerification', {isRegister: true});
   };
 
   return (
@@ -95,15 +95,17 @@ const Register = () => {
               styles.toggleContainer,
               {
                 backgroundColor: isChecked
-                  ? Colors.white
-                  : Colors.RED_TEXT_COLOR,
+                  ? Colors.RED_TEXT_COLOR
+                  : Colors.white,
               },
             ]}>
-            <Image
-              source={Images.icons.Tick}
-              style={styles.tickImage}
-              resizeMode="contain"
-            />
+            {isChecked && (
+              <Image
+                source={Images.icons.checkicon}
+                style={styles.tickImage}
+                resizeMode="contain"
+              />
+            )}
           </TouchableOpacity>
           <Text style={{paddingLeft: 10}}>
             By creating an account you agree to our{' '}

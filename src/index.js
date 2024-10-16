@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {View, LogBox, I18nManager} from 'react-native';
 import {Provider} from 'react-redux';
 import {CustomSplashScreen} from './screens';
-import {AlertModal, DropDown, FlashModal} from './modal';
+import {AlertModal, CountryModal, DropDown, FlashModal} from './modal';
 import {AppLogger} from './utils';
 import configureAppStore from './store';
 import DataHandler from './utils/DataHandler';
@@ -62,6 +62,7 @@ const App = () => {
         <FlashModal ref={ref => DataHandler.setFlashAlertModalRef(ref)} />
         <DropDown ref={ref => DataHandler.setDropDownModalRef(ref)} />
         <AlertModal ref={ref => DataHandler.setAlertModalRef(ref)} /> 
+  
         <AppNavigator />
       </Provider>
     </View>

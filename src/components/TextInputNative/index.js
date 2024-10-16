@@ -55,6 +55,7 @@ const TextInputNative = props => {
     leftIcon,
     isPhoneInput,
     code,
+    isCalendar,
     ...rest
   } = props;
 
@@ -81,9 +82,8 @@ const TextInputNative = props => {
       borderColor = Colors.errorInput;
       borderWidth = 1;
       backgroundColor = Colors.SECONDARY_PURPLE_VARIANT;
-    }
-     else if (isFocused) {
-      borderColor = Colors.BUTTON_LINEAR_COLOR // customly set this
+    } else if (isFocused) {
+      borderColor = Colors.BUTTON_LINEAR_COLOR; // customly set this
       borderWidth = 1;
     }
 
@@ -127,6 +127,8 @@ const TextInputNative = props => {
     const customStyleMulti = multiline && setMultlineStyle ? multlineStyle : {};
     // render input
 
+    console.log(isCalendar,"isCalendarisCalendar")
+    console.log(onPress, "onPress")
     return (
       <>
         {isPhoneInput ? (
@@ -229,9 +231,8 @@ const TextInputNative = props => {
       color = Colors.errorInput;
     } else if (isFocused) {
       color = Colors.black;
-    }
-    else if (setFocus) {
-      color= Colors.black; // customely added
+    } else if (setFocus) {
+      color = Colors.black; // customely added
     }
 
     return (
@@ -290,7 +291,9 @@ const TextInputNative = props => {
   };
 
   const renderRightInput = (onChange, value) => {
+   
     if (renderRight) {
+      console.log("hh")
       return (
         <View
           style={{
@@ -314,7 +317,23 @@ const TextInputNative = props => {
           />
         </TagView>
       );
-    } else if (onPress && arrowDown) {
+    } 
+    else if (onPress && isCalendar) {
+      console.log(isCalendar, 'jhshdjsd')
+      return (
+        <ButtonView
+          style={styles.rightIconStyle}
+          onPress={() => onPress(onChange, value)}>
+          <Image
+            source={Images.icons.calendar}
+            resizeMode="contain"
+            style={styles.arrowStyle}
+          />
+        </ButtonView>
+      );
+    }
+    else if (onPress && arrowDown) {
+      console.log(arrowDown, 'arrowDown')
       return (
         <ButtonView
           style={styles.rightIconStyle}
@@ -324,16 +343,20 @@ const TextInputNative = props => {
               error
                 ? Images.icons.errorIcon
                 : rightIcon
-                  ? rightIcon
-                  : isRightArrow
-                    ? Images.icons.arrowRight
-                    : Images.icons.arrowDown
+                ? rightIcon
+                : isRightArrow
+                ? Images.icons.arrowDown
+                : Images.icons.arrowRight
             }
+            // source={Images.icons.arrowDown}
+            resizeMode="contain"
             style={styles.arrowStyle}
           />
         </ButtonView>
       );
-    } else if (error) {
+    }  
+    else if (error) {
+      console.log("error")
       return (
         <View
           style={
@@ -455,6 +478,7 @@ TextInputNative.propTypes = {
   tintColor: PropTypes.string,
   isImage: PropTypes.bool,
   isPhoneInput: PropTypes.bool,
+  isCalendar: PropTypes.bool
 };
 TextInputNative.defaultProps = {
   containerStyle: {},
@@ -490,6 +514,7 @@ TextInputNative.defaultProps = {
   isRightArrow: false,
   isImage: true,
   isPhoneInput: false,
+  isCalendar: true
 };
 
 export default TextInputNative;

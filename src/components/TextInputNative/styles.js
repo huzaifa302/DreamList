@@ -41,7 +41,7 @@ export default StyleSheet.create({
     marginTop: Metrics.ratio(15),
     // fontFamily: Fonts.inter.regular,
   },
-  arrowStyle: {marginRight: Metrics.ratio(4)},
+  arrowStyle: {marginRight: Metrics.ratio(4), height: 15, width: 15},
   bottomSpace: {marginBottom: Metrics.ratio(8)},
   topSpace: {marginTop: Metrics.ratio(0)},
   labelText: {

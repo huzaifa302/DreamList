@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/datetimepicker": "^8.2.0",
     "@react-native/metro-config": "^0.73.5",
     "deprecated-react-native-prop-types": "^5.0.0",
     "i18next": "^23.8.2",
@@ -17,10 +18,12 @@
     "react-i18next": "^14.0.3",
     "react-native": "0.74.4",
     "react-native-confirmation-code-field": "^7.3.2",
+    "react-native-country-codes-picker": "^2.3.5",
     "react-native-fast-image": "^8.6.3",
     "react-native-image-crop-picker": "^0.40.2",
     "react-native-image-picker": "^7.1.0",
     "react-native-modal": "^13.0.1",
+    "react-native-modal-datetime-picker": "^18.0.0",
     "react-native-permissions": "^3.6.1",
     "react-native-phone-number-input": "^2.1.0",
     "react-native-progress": "^5.0.1",

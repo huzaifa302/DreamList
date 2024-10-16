@@ -28,6 +28,9 @@ import {Colors, Fonts, Images} from '../theme';
 import AccountSuccess from '../screens/AccountSuccess';
 import PrivacyPolicy from '../screens/PrivacyPolicy';
 import ProfileSetup from '../screens/ProfileSetup';
+import PaymentMethod from '../screens/PaymentMethod';
+import SelectGenre from '../screens/SelectGenre';
+import SelectInfluences from '../screens/SelectInfluences';
 
 const Stack = createStackNavigator();
 
@@ -52,7 +55,6 @@ function StackScreens() {
         },
         headerShown: true,
         headerShadowVisible: false,
-       
       })}
       initialRouteName="Walkthrough">
       <Stack.Screen
@@ -120,17 +122,39 @@ function StackScreens() {
         component={PrivacyPolicy}
         options={{title: 'Privacy Policy'}}
       />
-       <Stack.Screen
+      <Stack.Screen
         name="AccountSucess"
         component={AccountSuccess}
         options={{headerShown: false}}
       />
-       <Stack.Screen
+      <Stack.Screen
         name="ProfileSetup"
         component={ProfileSetup}
-        options={{headerLeft: false, headerTitleAlign:'left' }}
+        options={{
+          headerLeft: false,
+          headerTitleAlign: 'left',
+          headerTitle: 'Profile Setup',
+        }}
       />
-   
+      <Stack.Screen name="PaymentMethod" component={PaymentMethod} />
+      <Stack.Screen
+        name="SelectGenre"
+        component={SelectGenre}
+        options={{
+          presentation: 'modal',
+          headerShadowVisible: true,
+          headerTitle: 'Select Genre',
+        }}
+      />
+      <Stack.Screen
+        name="SelectInfluences"
+        component={SelectInfluences}
+        options={{
+          presentation: 'modal',
+          headerShadowVisible: true,
+          headerTitle: 'Select Influencers',
+        }}
+      />
     </Stack.Navigator>
   );
 }

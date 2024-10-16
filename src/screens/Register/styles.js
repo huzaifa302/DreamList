@@ -30,7 +30,7 @@ export default StyleSheet.create({
     borderWidth: 1,
     borderColor: Colors.FIELD_BORDER,
   },
-  tickImage: {width: 10, height: 7, marginBottom: 3},
+  tickImage: {width: 10, height: 10, marginBottom: 3},
   TermsText: {
     fontFamily: Fonts.type.bold,
     color: Colors.RED_TEXT_COLOR,
